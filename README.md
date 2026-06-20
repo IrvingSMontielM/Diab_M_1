@@ -144,22 +144,6 @@ compuertas regulatorias esta en
 [`docs/roadmap_app_and_device.md`](docs/roadmap_app_and_device.md). La biblioteca es la
 etapa uno y ya esta aqui.
 
-## Subir el repositorio a GitHub
-
-El repositorio remoto ya existe en `https://github.com/IrvingSMontielM/Diab_M_1`. Desde
-la raiz del proyecto:
-
-```bash
-git init
-git add .
-git commit -m "Diab_M_1: biblioteca de modelado, diagnostico y control glucemico"
-git branch -M main
-git remote add origin https://github.com/IrvingSMontielM/Diab_M_1.git
-git push -u origin main
-```
-
-Si el remoto ya tiene commits, primero `git pull origin main --allow-unrelated-histories`,
-resuelve conflictos y luego `git push`.
 
 ## Licencia
 
