@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diab_m1"
+version = "0.1.0"
+description = "Marco de investigacion para modelado, deteccion y control de diabetes mellitus con trazabilidad regulatoria (FDA, COFEPRIS, ISO, IEC)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Irving Shary Montiel Molina" },
+]
+keywords = [
+    "diabetes", "glucose-insulin", "PID", "artificial-pancreas",
+    "biomedical-engineering", "ISO-15197", "IEC-62304", "ISO-14971",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.6"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"

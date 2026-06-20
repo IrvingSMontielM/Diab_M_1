@@ -1,0 +1,33 @@
+# Byte-compiled / optimizados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribucion / empaquetado
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Pruebas / cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Figuras generadas por los ejemplos (se regeneran con los scripts)
+examples/figures/*.png
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/

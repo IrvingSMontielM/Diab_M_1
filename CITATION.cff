@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Diab_M_1: modelado, diagnostico y control glucosa-insulina en simulacion"
+message: "Si usas este software, citalo como se indica."
+type: software
+authors:
+  - given-names: "Irving Shary"
+    family-names: "Montiel Molina"
+    affiliation: "Tecnologico de Monterrey"
+repository-code: "https://github.com/IrvingSMontielM/Diab_M_1"
+abstract: >
+  Biblioteca de investigacion en Python para el modelado fisiologico del sistema
+  glucosa-insulina (Stolwijk-Hardy y modelo minimo de Bergman), clasificacion
+  diagnostica segun criterios ADA/OMS/NOM-015, procesamiento de senal de
+  monitoreo continuo de glucosa con metricas de exactitud ISO 15197 y FDA, y
+  control en lazo cerrado tipo pancreas artificial (PID con supervisor de
+  seguridad). Software de uso academico; no es un dispositivo medico.
+keywords:
+  - diabetes
+  - glucose-insulin model
+  - artificial pancreas
+  - PID control
+  - biomedical engineering
+license: MIT
+version: 0.1.0
+date-released: "2026-06-20"
