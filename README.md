@@ -1,9 +1,9 @@
 # Diab_M_1
 
-Biblioteca de investigacion en Python para **modelar, diagnosticar y controlar** el
+Investigacion-Modelacion para **modelar, diagnosticar y controlar** el
 sistema glucosa-insulina, con trazabilidad hacia los marcos regulatorios de
-ingenieria biomedica (FDA, COFEPRIS/NOM, ISO, IEC). Nace de la Actividad 4 sobre el
-modelo de Stolwijk-Hardy modificado por Khoo (2018) y lo lleva a una base de codigo
+ingenieria biomedica (FDA, COFEPRIS/NOM, ISO, IEC). Basado en el
+modelo de Stolwijk-Hardy modificado por Khoo (2018) y lo lleva a una base de código
 reproducible, probada y documentada que sirve como cimiento para una futura app y,
 mas adelante, para el desarrollo de un dispositivo.
 
@@ -12,7 +12,6 @@ mas adelante, para el desarrollo de un dispositivo.
 > [`DISCLAIMER.md`](DISCLAIMER.md) antes de continuar.
 
 ## Que hace
-
 El proyecto cubre cuatro bloques que juntos describen un pancreas artificial en
 simulacion, mas el contexto clinico y regulatorio que un sistema asi requiere.
 
@@ -68,7 +67,7 @@ reporte = classify(fpg_mg_dl=131, a1c_percent=6.8, criteria=Criteria.ADA)
 print(reporte.summary())
 ```
 
-Reproducir los tres escenarios del PDF y el lazo cerrado:
+Ejemplos:
 
 ```bash
 PYTHONPATH=src python3 examples/01_simulate_scenarios.py   # sano / DM1 / DM2
